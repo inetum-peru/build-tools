@@ -12,29 +12,23 @@
 
   -->
 
-# base-template
+# build-tools
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/inetum-peru/base-template?label=latest&sort=semver)](https://github.com/inetum-peru/base-template/releases) [![Latest Release](https://img.shields.io/github/release/inetum-peru/base-template)](https://github.com/inetum-peru/base-template/releases) [![Lint](https://img.shields.io/github/workflow/status/inetum-peru/base-template/lint-code)](https://github.com/inetum-peru/base-template/actions) [![Issues](https://img.shields.io/github/issues/inetum-peru/base-template)](https://github.com/inetum-peru/base-template/issues) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/inetum-peru/build-tools?label=latest&sort=semver)](https://github.com/inetum-peru/build-tools/releases) [![Latest Release](https://img.shields.io/github/release/inetum-peru/build-tools)](https://github.com/inetum-peru/build-tools/releases) [![Lint](https://img.shields.io/github/workflow/status/inetum-peru/build-tools/lint-code)](https://github.com/inetum-peru/build-tools/actions) [![Issues](https://img.shields.io/github/issues/inetum-peru/build-tools)](https://github.com/inetum-peru/build-tools/issues) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
 
-base-template for project
-
-### Replace name project to New Project
-
-```bash
-  agr 'base-template' 'new-project'
-```
+build-tools for project
 
 ## Help
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/inetum-peru/base-template/issues).
+File a GitHub [issue](https://github.com/inetum-peru/build-tools/issues).
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/inetum-peru/base-template/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/inetum-peru/build-tools/issues) to report any bugs or file feature requests.
 
 ### Development
 
@@ -75,6 +69,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like base-template
+## Don't forget to 🌟 Star 🌟 the repo if you like build-tools
 
-[Your feedback is appreciated](https://github.com/inetum-peru/base-template/issues)
+[Your feedback is appreciated](https://github.com/inetum-peru/build-tools/issues)
