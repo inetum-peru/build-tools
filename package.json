@@ -1,7 +1,7 @@
 {
-  "name": "@inetum-peru/base-template",
+  "name": "@inetum-peru/build-tools",
   "version": "0.0.0",
-  "description": "base-template",
+  "description": "build-tools",
   "author": "Luis Mayta <slovacus@gmail.com>",
   "license": "LGPL-3.0",
   "engines": {
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inetum-peru/base-template.git"
+    "url": "git+https://github.com/inetum-peru/build-tools.git"
   },
   "keywords": [
     "hadenlabs",
@@ -48,16 +48,16 @@
     "tool"
   ],
   "bugs": {
-    "url": "https://github.com/inetum-peru/base-template/issues"
+    "url": "https://github.com/inetum-peru/build-tools/issues"
   },
-  "homepage": "https://github.com/inetum-peru/base-template#readme",
+  "homepage": "https://github.com/inetum-peru/build-tools#readme",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@hadenlabs/commitlint-config": "^0.1.0",
     "@types/rimraf": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
     "@types/handlebars-helpers": "^0.5.2",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",

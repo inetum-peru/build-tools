@@ -5,7 +5,7 @@
 #
 
 # Name of this project
-name: base-template
+name: build-tools
 
 email:
   support: luis.mayta@inetum.world
@@ -22,22 +22,22 @@ copyrights:
 license: 'LGPL-3.0'
 
 # Canonical GitHub repo
-github_repo: inetum-peru/base-template
+github_repo: inetum-peru/build-tools
 
 # Badges to display
 badges:
   - name: GitHub tag (latest SemVer)
-    image: https://img.shields.io/github/v/tag/inetum-peru/base-template?label=latest&sort=semver
-    url: https://github.com/inetum-peru/base-template/releases
+    image: https://img.shields.io/github/v/tag/inetum-peru/build-tools?label=latest&sort=semver
+    url: https://github.com/inetum-peru/build-tools/releases
   - name: Latest Release
-    image: https://img.shields.io/github/release/inetum-peru/base-template
-    url: https://github.com/inetum-peru/base-template/releases
+    image: https://img.shields.io/github/release/inetum-peru/build-tools
+    url: https://github.com/inetum-peru/build-tools/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/inetum-peru/base-template/lint-code
-    url: https://github.com/inetum-peru/base-template/actions
+    image: https://img.shields.io/github/workflow/status/inetum-peru/build-tools/lint-code
+    url: https://github.com/inetum-peru/build-tools/actions
   - name: Issues
-    image: https://img.shields.io/github/issues/inetum-peru/base-template
-    url: https://github.com/inetum-peru/base-template/issues
+    image: https://img.shields.io/github/issues/inetum-peru/build-tools
+    url: https://github.com/inetum-peru/build-tools/issues
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
@@ -48,10 +48,4 @@ badges:
 # Short description of this project
 description: |-
 
-  base-template for project
-
-  ### Replace name project to New Project
-
-  ```bash
-    agr 'base-template' 'new-project'
-  ```
+  build-tools for project
