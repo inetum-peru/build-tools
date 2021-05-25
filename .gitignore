@@ -1,6 +1,9 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/python,node,go,zsh
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,node,go,zsh
+# Created by https://www.toptal.com/developers/gitignore/api/python,node,go,terraform,ansible
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,node,go,terraform,ansible
+
+### Ansible ###
+*.retry
 
 ### Go ###
 # Binaries for programs and plugins
@@ -294,34 +297,36 @@ Thumbs.db
 .prof
 
 
-### Zsh ###
-# Zsh compiled script + zrecompile backup
-*.zwc
-*.zwc.old
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
 
-# Zsh completion-optimization dumpfile
-*zcompdump*
+# .tfstate files
+*.tfstate
+*.tfstate.*
 
-# Zsh zcalc history
-.zcalc_history
+# Crash log files
+crash.log
 
-# A popular plugin manager's files
-._zinit
-.zinit_lstupd
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars
 
-# zdharma/zshelldoc tool's files
-zsdoc/data
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
 
-# robbyrussell/oh-my-zsh/plugins/per-directory-history plugin's files
-# (when set-up to store the history in the local directory)
-.directory_history
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
 
-# MichaelAquilina/zsh-autoswitch-virtualenv plugin's files
-# (for Zsh plugins using Python)
-.venv
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
 
-# Zunit tests' output
-/tests/_output/*
-!/tests/_output/.gitkeep
-
-# End of https://www.toptal.com/developers/gitignore/api/python,node,go,zsh
+# End of https://www.toptal.com/developers/gitignore/api/python,node,go,terraform,ansible
+bin
+bin
