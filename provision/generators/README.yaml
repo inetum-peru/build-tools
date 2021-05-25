@@ -26,18 +26,18 @@ github_repo: inetum-peru/build-tools
 
 # Badges to display
 badges:
-  - name: GitHub tag (latest SemVer)
-    image: https://img.shields.io/github/v/tag/inetum-peru/build-tools?label=latest&sort=semver
-    url: https://github.com/inetum-peru/build-tools/releases
-  - name: Latest Release
-    image: https://img.shields.io/github/release/inetum-peru/build-tools
-    url: https://github.com/inetum-peru/build-tools/releases
+  - name: GitHub release
+    image: https://img.shields.io/github/release/inetum-peru/build-tools?style=flat-square
+    url: https://github.com/inetum-peru/build-tools/releases/latest
   - name: Lint
     image: https://img.shields.io/github/workflow/status/inetum-peru/build-tools/lint-code
-    url: https://github.com/inetum-peru/build-tools/actions
-  - name: Issues
-    image: https://img.shields.io/github/issues/inetum-peru/build-tools
-    url: https://github.com/inetum-peru/build-tools/issues
+    url: https://github.com/inetum-peru/build-tools/actions?workflow=lint-code
+  - name: CI
+    image: https://img.shields.io/github/workflow/status/inetum-peru/build-tools/ci
+    url: https://github.com/inetum-peru/build-tools/actions?workflow=ci
+  - name: Test
+    image: https://img.shields.io/github/workflow/status/inetum-peru/build-tools/test
+    url: https://github.com/inetum-peru/build-tools/actions?workflow=test
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
@@ -47,5 +47,7 @@ badges:
 
 # Short description of this project
 description: |-
+  build-tools for inetum.
 
-  build-tools for project
+examples:
+  - 'docs/examples/common.md'
