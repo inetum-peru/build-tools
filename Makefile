@@ -22,7 +22,7 @@ TEAM := inetumperu
 REPOSITORY_DOMAIN:=github.com
 REPOSITORY_OWNER:= inetum-peru
 AWS_VAULT ?= ${TEAM}
-PROJECT := base-template
+PROJECT := build-tools
 
 PYTHON_VERSION=3.8.0
 NODE_VERSION=14.15.5

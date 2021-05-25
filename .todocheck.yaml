@@ -1,4 +1,4 @@
-origin: github.com/inetum-peru/base-template
+origin: github.com/inetum-peru/build-tools
 issue_tracker: GITHUB
 auth:
   type: none
